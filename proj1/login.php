@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Autos Login - Your Name</title>
+    <title>Autos Login - Yash Naktode</title>
 </head>
 <body>
 <h1>Please Log In</h1>
@@ -42,4 +42,5 @@ if ($failure !== false) {
     <input type="submit" value="Log In">
 </form>
 </body>
+
 </html>
