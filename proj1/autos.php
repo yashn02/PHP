@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Autos Database - Your Name</title>
+    <title>Autos Database - Yash Naktode</title>
 </head>
 <body>
 <h1>Tracking Autos for <?= htmlentities($_GET['name']) ?></h1>
@@ -80,4 +80,5 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 ?>
 </ul>
 </body>
+
 </html>
